@@ -79,7 +79,7 @@
     {% endif %}
 {%- endmacro %}
 
-{%- macro guzzle_sidebar() %}
+{%- macro bagels_sidebar() %}
     <div id="left-column">
         <div class="sphinxsidebar">
             {%- if sidebars != None %}
@@ -108,7 +108,7 @@
                     <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
             </div>
 
-            {%- block sidebar1 %}{{ guzzle_sidebar() }}
+            {%- block sidebar1 %}{{ bagels_sidebar() }}
             {% endblock %}
 
             {%- block document_wrapper %}
